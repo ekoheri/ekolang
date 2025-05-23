@@ -1,0 +1,11 @@
+# Contoh program Eko
+string nama = "Eko";
+int umur = 45;
+tampil("Halo %s\\n", nama);
+jika ((umur > 0) && (umur <= 12)) {
+    tampil("Anak-Anak");
+} lain jika ((umur > 12) && (umur <=17)){
+    tampil("Remaja");
+} lain {
+    tampil("Tua");
+}
